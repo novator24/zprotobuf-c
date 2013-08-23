@@ -14,6 +14,9 @@
  * under the License.
  */
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /* === needs to be declared for the PROTOBUF_C_BUFFER_SIMPLE_INIT macro === */
 
@@ -70,3 +73,6 @@ protobuf_c_service_invoke_internal(ProtobufCService *service,
                                   const ProtobufCMessage *input,
                                   ProtobufCClosure  closure,
                                   void             *closure_data);
+
+#endif  // extern "C"
+
