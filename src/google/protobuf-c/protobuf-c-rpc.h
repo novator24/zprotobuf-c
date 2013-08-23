@@ -14,6 +14,10 @@
  */
 #include "protobuf-c-dispatch.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef enum
 {
   PROTOBUF_C_RPC_ADDRESS_LOCAL,  /* unix-domain socket */
@@ -122,5 +126,9 @@ void protobuf_c_rpc_server_set_autotimeout (ProtobufC_RPC_Server *server,
 void protobuf_c_rpc_server_set_error_handler (ProtobufC_RPC_Server *server,
                                               ProtobufC_RPC_Error_Func func,
                                               void                 *error_func_data);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
