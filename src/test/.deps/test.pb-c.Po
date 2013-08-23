@@ -1,0 +1,34 @@
+test.pb-c.o test.pb-c.o: generated-code/test.pb-c.c \
+  generated-code/test.pb-c.h ../google/protobuf-c/protobuf-c.h \
+  /usr/lib/gcc/i386-redhat-linux/4.1.2/include/stddef.h \
+  /usr/include/assert.h /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h /usr/include/inttypes.h \
+  /usr/include/stdint.h /usr/include/bits/wchar.h \
+  ../google/protobuf-c/protobuf-c-private.h
+
+generated-code/test.pb-c.h:
+
+../google/protobuf-c/protobuf-c.h:
+
+/usr/lib/gcc/i386-redhat-linux/4.1.2/include/stddef.h:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+../google/protobuf-c/protobuf-c-private.h:
