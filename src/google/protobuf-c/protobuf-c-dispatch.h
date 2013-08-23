@@ -7,10 +7,6 @@ typedef struct _ProtobufCDispatchIdle ProtobufCDispatchIdle;
 
 #include "protobuf-c.h"
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 typedef enum
 {
   PROTOBUF_C_EVENT_READABLE = (1<<0),
@@ -128,5 +124,5 @@ struct _ProtobufCDispatch
 };
 
 void protobuf_c_dispatch_destroy_default (void);
-#endif  // extern "C"
+
 #endif
